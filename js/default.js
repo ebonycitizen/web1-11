@@ -1,12 +1,10 @@
 var number = Math.floor(Math.random()*3);
-var answer = parseInt(window.prompt('―数当てゲーム― 0~2の数字を入力してください'));
+var answer;
 var message;
 
-while(answer != number)
+do
 {
-  answer = parseInt(window.prompt('もう一回'));
-
-}
+  answer = parseInt(window.prompt('―数当てゲーム― 0~2の数字を入力してください'));
   if(answer === number)
   {
     message = 'あたり';
@@ -24,3 +22,5 @@ while(answer != number)
     message = '正しい数字を入力してください';
   }
   document.getElementById('choice').textContent = message;
+}
+while(answer != number);
