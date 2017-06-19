@@ -12,14 +12,17 @@ do
   else if(answer < number)
   {
     message = 'もっと大きいです';
+    document.getElementById('choice').textContent = message;
   }
   else if(number < answer)
   {
     message = 'もっと小さいです';
+    document.getElementById('choice').textContent = message;
   }
   else
   {
     message = '正しい数字を入力してください';
+    document.getElementById('choice').textContent = message;
   }
   document.getElementById('choice').textContent = message;
 }
