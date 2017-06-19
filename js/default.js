@@ -27,7 +27,6 @@ do
   }
   else
   {
-    message = 'ゲーム終了';
     var result = window.confirm('終わり？');
     if(result)
     {
