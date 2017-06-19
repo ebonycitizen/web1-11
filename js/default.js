@@ -4,7 +4,7 @@ var answer;
 answer = parseInt(window.prompt('―数当てゲーム― 0~2の数字を入力してください'));
 
 var message;
-while(answer != number)
+while(answer !== number)
 {
   if(answer === number)
   {
