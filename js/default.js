@@ -10,7 +10,7 @@ else if(answer < number)
 {
   message = 'もっと大きいです';
 }
-else if(answer > number)
+else if(number < answer)
 {
   message = 'もっと小さいです';
 }
