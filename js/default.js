@@ -2,7 +2,7 @@ var number = Math.floor(Math.random()*3);
 var answer;
 
 var message;
-while(answer !== number)
+while(true)
 {
   answer = parseInt(window.prompt('―数当てゲーム― 0~2の数字を入力してください'));
   if(answer === number)
