@@ -1,10 +1,10 @@
 var number = Math.floor(Math.random()*100);
 var answer;
-var message;
-var i=0;
 
 do
 {
+  var i=0;
+  var message;
   if(i===0)
   {
     answer = parseInt(window.prompt('―数当てゲーム― 0~99の数字を入力してください'));
