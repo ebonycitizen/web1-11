@@ -6,7 +6,10 @@ var i=0;
 do
 {
   if(i===0)
+  {
     answer = parseInt(window.prompt('―数当てゲーム― 0~2の数字を入力してください'));
+    i = 1;
+  }
   else
     answer = parseInt(window.prompt(message));
   
