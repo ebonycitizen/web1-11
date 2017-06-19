@@ -6,7 +6,6 @@ answer = parseInt(window.prompt('―数当てゲーム― 0~2の数字を入力�
 var message;
 while(answer != number)
 {
-  answer = parseInt(window.prompt('―数当てゲーム― 0~2の数字を入力してください'));
   if(answer === number)
   {
     message = 'あたり';
