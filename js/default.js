@@ -27,7 +27,13 @@ do
   }
   else
   {
-    message = '正しい数字を入力してください';
+    message = 'ゲーム終了';
+    var result = window.confirm('終わり？');
+    if(result)
+    {
+      document.getElementById('choice').textContent = '終わり';
+      break;
+    }
   }
   document.getElementById('choice').textContent = message;
 }
