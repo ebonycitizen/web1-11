@@ -1,5 +1,5 @@
 var number = Math.floor(Math.random()*3);
-var answer = parseInt(window.prompt('―数当てゲーム― 0~2の数字を入力してください'));:
+var answer = parseInt(window.prompt('―数当てゲーム― 0~2の数字を入力してください'));
 
 var message;
 
@@ -14,7 +14,6 @@ else if(answer < number)
 else if(number < answer)
 {
   message = 'もっと小さいです';
-  answer = parseInt(window.prompt('―数当てゲーム― 0~2の数字を入力してください'));
 }
 else
 {
