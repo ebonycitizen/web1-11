@@ -1,4 +1,4 @@
-var number = Math.floor(Math.random()*3);
+var number = Math.floor(Math.random()*100);
 var answer;
 var message;
 var i=0;
@@ -27,6 +27,7 @@ do
   }
   else
   {
+    message = '頑張れ';
     var result = window.confirm('終わり？');
     if(result)
     {
